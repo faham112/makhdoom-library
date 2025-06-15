@@ -1,28 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Makhdoom Wisali's Library</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makhdoom Library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <header>
-    <h1>Makhdoom Wisali's Library</h1>
-    <p>View your uploaded books</p>
-  </header>
-
-  <div class="book-grid">
-    <!-- Uploaded Book -->
-    <div class="book-card">
-      <div class="book-title">اقرار نامہ 2025</div>
-      <div class="book-author">Updated PDF Upload</div>
-      <embed src="books/Updated Iqrar nama 2025.pdf" type="application/pdf" width="100%" height="600px" />
+    <div class="container">
+        <header>
+            <img src="images/logo" alt="Logo">
+            <h1>Makhdoom Wisali</h1>
+            <input type="text" placeholder="Search...">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Teachers</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Live Class</a></li>
+                <li><a href="#">Attendance</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Reports</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="hero">
+                <h2>Welcome to Makhdoom Library</h2>
+                <p>The library serves as a welcoming home for knowledge seekers and avid readers alike</p>
+                <a href="#">Learn more</a>
+            </section>
+            <section class="popular">
+                <h3>Popular</h3>
+                <div class="grid">
+                    <div class="card">
+                        <img src="images/novel-01" alt="Book Cover">
+                        <p>The book is an essent...</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/novel-01" alt="Book Cover">
+                        <p>The book is an essent...</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/novel-01" alt="Book Cover">
+                        <p>The book is an essent...</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/novel-01" alt="Book Cover">
+                        <p>The book is an essent...</p>
+                    </div>
+                </div>
+            </section>
+            <section class="ongoing">
+                <h3>Ongoing</h3>
+                <div class="grid">
+                    <div class="card">
+                        <img src="images/novel-01" alt="Book Cover">
+                        <p>The book is an essent...</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/novel-01" alt="Book Cover">
+                        <p>The book is an essent...</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/novel-01" alt="Book Cover">
+                        <p>The book is an essent...</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/novel-01" alt="Book Cover">
+                        <p>The book is an essent...</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <section class="achievements">
+                <h3>Unlocks achievement</h3>
+                <p>Goal achieved success unlocked</p>
+                <p>60% Achieved</p>
+                <p>32% Achieved</p>
+            </section>
+            <section class="best-sales">
+                <h3>Best sales</h3>
+                <ul>
+                    <li>Grow green</li>
+                    <li>Raise a plant</li>
+                    <li>One questin</li>
+                    <li>Unplug day</li>
+                    <li>Best year</li>
+                </ul>
+            </section>
+        </aside>
+        <footer>
+        </footer>
     </div>
-  </div>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
